@@ -1,7 +1,7 @@
-# Summer 24 — Semester Final Solutions
+# Winter 24 — Semester Final Solutions
 [![Repo Size](https://img.shields.io/badge/files-many-brightgreen.svg)](https://github.com/Shahriyar-Rahim/Summer_24_Semester_Final)
 
-A tidy collection of C programs and notes for the Summer 2024 semester final. This repository contains solutions to lab/exam problems, small helpers, and sample input/output files so you can compile, run, and test each exercise quickly.
+A tidy collection of C programs and notes for the Winter 2024 semester final. This repository contains solutions to lab/exam problems, small helpers, and sample input/output files so you can compile, run, and test each exercise quickly.
 
 ---
 
