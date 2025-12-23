@@ -1,0 +1,16 @@
+Interpreted vs. Compiled Language
+
+Trade-off:
+
+Performance: Compiled languages (C, C++) are generally faster because they are converted directly to
+machine code before execution. Interpreted languages (Python, JS) are translated line-by-line during runtime,
+which is slower.
+Development Speed: Interpreted languages allow for faster testing and debugging (no compile step).
+Portability: Interpreted code can run on any machine with the interpreter. Compiled code must be re-compiled
+for different operating systems.
+
+Factors for Decision:
+
+Speed requirements: Is it a real-time system? (Choose Compiled).
+Development time: Need a quick prototype? (Choose Interpreted).
+Target Hardware: Embedded systems with limited resources usually require Compiled languages (C).
