@@ -112,5 +112,3 @@ This repository is personal course work by Shahriyar-Rahim. If you want a formal
 
 Shahriyar-Rahim — repository owner  
 GitHub: [Shahriyar-Rahim](https://github.com/Shahriyar-Rahim)
-
-Good luck with your semester review! If you'd like, I can open a PR that adds this README.md (and optionally add the test script) so it's ready in the repo.
