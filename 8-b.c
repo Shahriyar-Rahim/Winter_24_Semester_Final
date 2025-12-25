@@ -1,25 +1,25 @@
 #include <stdio.h>
-#include <string.h>
 
-int main(){
-    //palindrome check code for a string inputted by the user
-
+int main() {
     char str[20];
+    int i = 0, len = 0;
 
     printf("Enter a string: ");
     scanf("%s", str);
 
-    int i = 0, j = strlen(str) - 1;
+    // find length
+    while (str[len] != '\0') {
+        len++;
+    }
 
-    while (i < j) {
-        if (str[i] != str[j]) {
+    // palindrome check
+    for (i = 0; i < len / 2; i++) {
+        if (str[i] != str[len - i - 1]) {
             printf("Not a palindrome");
             return 0;
         }
-        i++;
-        j--;
     }
-    printf("Palindrome");
 
+    printf("Palindrome");
     return 0;
 }
